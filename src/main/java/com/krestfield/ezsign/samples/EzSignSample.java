@@ -31,7 +31,8 @@ public class EzSignSample
         try
         {
             // Connection to the server requires a unique authentication code
-            // For the demo,
+            // For the demo this is just 'password' but may change at any time.  Contact support@krestfield.com
+            // to obtain the latest code
             String authenticationCode = "password";
 
             // Each channel on the server can be configured independently.  Some of the options available are:
