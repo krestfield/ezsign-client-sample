@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.krestfield.ezsign.samples</groupId>
+    <artifactId>ezsign-client-sample</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>EzSign Client Sample</name>
+    <description>
+        An example of how to interface to the PKCloud service using the java client
+    </description>
+    <url>https://krestfield.com/index.php/pkcloud</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <organization>Krestfield Limited</organization>
+            <organizationUrl>https://krestfield.com</organizationUrl>
+            <timezone>Europe/London</timezone>
+        </developer>
+    </developers>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.krestfield.ezsign</groupId>
+            <artifactId>ezsign-client</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+    </dependencies>
+</project>
