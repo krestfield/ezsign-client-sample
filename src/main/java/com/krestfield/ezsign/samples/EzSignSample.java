@@ -58,7 +58,7 @@ public class EzSignSample
             byte[] dataToSign = "Hello".getBytes();
 
             // Create the client
-            EzSignClient client = new EzSignClient("demo.krestfield.com", 80, authenticationCode);
+            EzSignClient client = new EzSignClient("demoapi.krestfield.com", 80, authenticationCode);
 
             // Generate a signature
             // If signing a large data set (or to ensure the original data is never sent to the server), it is
