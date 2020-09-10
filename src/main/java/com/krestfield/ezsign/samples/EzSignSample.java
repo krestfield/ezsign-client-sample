@@ -46,13 +46,17 @@ public class EzSignSample
 
             // Other channels available are as follows:
             //
-            // To generate a RAW (PKCS#1) formatted signature using RSA
-            // String channelName = "RAW_RSA_SIGN_CHANNEL";
-
             // To generate a PKCS#7 formatted signature using ECDSA
             // String channelName = "P7_ECDSA_SIGN_CHANNEL";
 
+            // To generate a RAW (PKCS#1) formatted signature using RSA
+            // Note that you need to call verifyRawSignature and pass the signer certificate to verify a
+            // signature generated with this channel
+            // String channelName = "RAW_RSA_SIGN_CHANNEL";
+
             // To generate a RAW signature using ECDSA
+            // Note that you need to call verifyRawSignature and pass the signer certificate to verify a
+            // signature generated with this channel
             // String channelName = "RAW_ECDSA_SIGN_CHANNEL";
 
             byte[] dataToSign = "Hello".getBytes();
